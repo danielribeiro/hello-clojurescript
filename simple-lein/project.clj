@@ -3,7 +3,7 @@
   :plugins [[lein-cljsbuild "0.3.2"]]
   :cljsbuild
   {:builds
-   [{:source-paths ["src/simple-lein"]
+   [{:source-paths ["src/simple_lein"]
      :compiler {:optimizations :none
                 :pretty-print false
                 :output-dir "out" 
