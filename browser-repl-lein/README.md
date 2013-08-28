@@ -15,3 +15,16 @@ $ lein cljsbuild auto
 ```
 
 You can view the examples by opening `index.html` in your favorite browser.
+
+Once that is onde, execute the repl with:
+
+```bash
+$ lein trampoline cljsbuild repl-listen
+```
+
+and then you can run any clojurescript code in your browser:
+
+```clj
+(js/alert "hey")
+(.log js/console "i can do stuff")
+```
