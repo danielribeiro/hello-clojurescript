@@ -2,13 +2,9 @@
 
 Install [Leiningen](https://github.com/technomancy/leiningen/blob/master/README.md) `2.1.2` or higher.
 
-To compile just use
+Get Lighttable `0.5.2` or higher [here](http://www.lighttable.com/)
 
-```bash
-$ lein cljsbuild once
-```
-
-To auto compile while you edit the source:
+Auto compile with lein on your terminal.
 
 ```bash
 $ lein cljsbuild auto
