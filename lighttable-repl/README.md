@@ -1,4 +1,4 @@
-# lighttable-instarepl
+# lighttable-repl
 
 ## Setup
 
