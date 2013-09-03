@@ -12,4 +12,9 @@ pom.xml.asc
 .lein-failures
 .lein-plugins
 .lein-repl-history
+.repl/
+client.js
+clojure/
+cljs/
 repl/
+samplerepl/
