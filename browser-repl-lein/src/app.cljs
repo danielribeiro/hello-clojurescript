@@ -6,4 +6,4 @@
 
 (js/alert (world/default-string))
 
-(map [1 2] identity)
+(map identity [1 2])
