@@ -8,10 +8,16 @@ To compile just use
 $ lein cljsbuild once
 ```
 
-To auto compile while you edit the source:
+To auto compile while you edit the source
 
 ```bash
 $ lein cljsbuild auto
+```
+
+To open the repl just use
+
+```bash
+$ lein trampoline cljsbuild repl-rhino
 ```
 
 You can view the examples by opening `index.html` in your favorite browser.
